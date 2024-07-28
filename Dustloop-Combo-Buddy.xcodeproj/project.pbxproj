@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A7342D2C56729B006DC839 /* Dustloop_Combo_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7342C2C56729B006DC839 /* Dustloop_Combo_BuddyApp.swift */; };
+		89A7342F2C56729B006DC839 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7342E2C56729B006DC839 /* ContentView.swift */; };
+		89A734312C56729B006DC839 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A734302C56729B006DC839 /* Item.swift */; };
+		89A734332C56729D006DC839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A734322C56729D006DC839 /* Assets.xcassets */; };
+		89A734372C56729D006DC839 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A734362C56729D006DC839 /* Preview Assets.xcassets */; };
+		89A734422C56729D006DC839 /* Dustloop_Combo_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A734412C56729D006DC839 /* Dustloop_Combo_BuddyTests.swift */; };
+		89A7344C2C56729D006DC839 /* Dustloop_Combo_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7344B2C56729D006DC839 /* Dustloop_Combo_BuddyUITests.swift */; };
+		89A7344E2C56729D006DC839 /* Dustloop_Combo_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7344D2C56729D006DC839 /* Dustloop_Combo_BuddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A7343E2C56729D006DC839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A734212C56729B006DC839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A734282C56729B006DC839;
+			remoteInfo = "Dustloop-Combo-Buddy";
+		};
+		89A734482C56729D006DC839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A734212C56729B006DC839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A734282C56729B006DC839;
+			remoteInfo = "Dustloop-Combo-Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89A734292C56729B006DC839 /* Dustloop-Combo-Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dustloop-Combo-Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A7342C2C56729B006DC839 /* Dustloop_Combo_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dustloop_Combo_BuddyApp.swift; sourceTree = "<group>"; };
+		89A7342E2C56729B006DC839 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89A734302C56729B006DC839 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		89A734322C56729D006DC839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A734342C56729D006DC839 /* Dustloop_Combo_Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dustloop_Combo_Buddy.entitlements; sourceTree = "<group>"; };
+		89A734362C56729D006DC839 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89A734382C56729D006DC839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A7343D2C56729D006DC839 /* Dustloop-Combo-BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dustloop-Combo-BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A734412C56729D006DC839 /* Dustloop_Combo_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dustloop_Combo_BuddyTests.swift; sourceTree = "<group>"; };
+		89A734472C56729D006DC839 /* Dustloop-Combo-BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dustloop-Combo-BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A7344B2C56729D006DC839 /* Dustloop_Combo_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dustloop_Combo_BuddyUITests.swift; sourceTree = "<group>"; };
+		89A7344D2C56729D006DC839 /* Dustloop_Combo_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dustloop_Combo_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A734262C56729B006DC839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A7343A2C56729D006DC839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A734442C56729D006DC839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A734202C56729B006DC839 = {
+			isa = PBXGroup;
+			children = (
+				89A7342B2C56729B006DC839 /* Dustloop-Combo-Buddy */,
+				89A734402C56729D006DC839 /* Dustloop-Combo-BuddyTests */,
+				89A7344A2C56729D006DC839 /* Dustloop-Combo-BuddyUITests */,
+				89A7342A2C56729B006DC839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A7342A2C56729B006DC839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A734292C56729B006DC839 /* Dustloop-Combo-Buddy.app */,
+				89A7343D2C56729D006DC839 /* Dustloop-Combo-BuddyTests.xctest */,
+				89A734472C56729D006DC839 /* Dustloop-Combo-BuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A7342B2C56729B006DC839 /* Dustloop-Combo-Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				89A7342C2C56729B006DC839 /* Dustloop_Combo_BuddyApp.swift */,
+				89A7342E2C56729B006DC839 /* ContentView.swift */,
+				89A734302C56729B006DC839 /* Item.swift */,
+				89A734322C56729D006DC839 /* Assets.xcassets */,
+				89A734342C56729D006DC839 /* Dustloop_Combo_Buddy.entitlements */,
+				89A734382C56729D006DC839 /* Info.plist */,
+				89A734352C56729D006DC839 /* Preview Content */,
+			);
+			path = "Dustloop-Combo-Buddy";
+			sourceTree = "<group>";
+		};
+		89A734352C56729D006DC839 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89A734362C56729D006DC839 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89A734402C56729D006DC839 /* Dustloop-Combo-BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A734412C56729D006DC839 /* Dustloop_Combo_BuddyTests.swift */,
+			);
+			path = "Dustloop-Combo-BuddyTests";
+			sourceTree = "<group>";
+		};
+		89A7344A2C56729D006DC839 /* Dustloop-Combo-BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89A7344B2C56729D006DC839 /* Dustloop_Combo_BuddyUITests.swift */,
+				89A7344D2C56729D006DC839 /* Dustloop_Combo_BuddyUITestsLaunchTests.swift */,
+			);
+			path = "Dustloop-Combo-BuddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A734282C56729B006DC839 /* Dustloop-Combo-Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A734512C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-Buddy" */;
+			buildPhases = (
+				89A734252C56729B006DC839 /* Sources */,
+				89A734262C56729B006DC839 /* Frameworks */,
+				89A734272C56729B006DC839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dustloop-Combo-Buddy";
+			productName = "Dustloop-Combo-Buddy";
+			productReference = 89A734292C56729B006DC839 /* Dustloop-Combo-Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A7343C2C56729D006DC839 /* Dustloop-Combo-BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A734542C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-BuddyTests" */;
+			buildPhases = (
+				89A734392C56729D006DC839 /* Sources */,
+				89A7343A2C56729D006DC839 /* Frameworks */,
+				89A7343B2C56729D006DC839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A7343F2C56729D006DC839 /* PBXTargetDependency */,
+			);
+			name = "Dustloop-Combo-BuddyTests";
+			productName = "Dustloop-Combo-BuddyTests";
+			productReference = 89A7343D2C56729D006DC839 /* Dustloop-Combo-BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89A734462C56729D006DC839 /* Dustloop-Combo-BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A734572C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-BuddyUITests" */;
+			buildPhases = (
+				89A734432C56729D006DC839 /* Sources */,
+				89A734442C56729D006DC839 /* Frameworks */,
+				89A734452C56729D006DC839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A734492C56729D006DC839 /* PBXTargetDependency */,
+			);
+			name = "Dustloop-Combo-BuddyUITests";
+			productName = "Dustloop-Combo-BuddyUITests";
+			productReference = 89A734472C56729D006DC839 /* Dustloop-Combo-BuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A734212C56729B006DC839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					89A734282C56729B006DC839 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					89A7343C2C56729D006DC839 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 89A734282C56729B006DC839;
+					};
+					89A734462C56729D006DC839 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 89A734282C56729B006DC839;
+					};
+				};
+			};
+			buildConfigurationList = 89A734242C56729B006DC839 /* Build configuration list for PBXProject "Dustloop-Combo-Buddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A734202C56729B006DC839;
+			productRefGroup = 89A7342A2C56729B006DC839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A734282C56729B006DC839 /* Dustloop-Combo-Buddy */,
+				89A7343C2C56729D006DC839 /* Dustloop-Combo-BuddyTests */,
+				89A734462C56729D006DC839 /* Dustloop-Combo-BuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A734272C56729B006DC839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A734372C56729D006DC839 /* Preview Assets.xcassets in Resources */,
+				89A734332C56729D006DC839 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A7343B2C56729D006DC839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A734452C56729D006DC839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A734252C56729B006DC839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A7342F2C56729B006DC839 /* ContentView.swift in Sources */,
+				89A734312C56729B006DC839 /* Item.swift in Sources */,
+				89A7342D2C56729B006DC839 /* Dustloop_Combo_BuddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A734392C56729D006DC839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A734422C56729D006DC839 /* Dustloop_Combo_BuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A734432C56729D006DC839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A7344E2C56729D006DC839 /* Dustloop_Combo_BuddyUITestsLaunchTests.swift in Sources */,
+				89A7344C2C56729D006DC839 /* Dustloop_Combo_BuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A7343F2C56729D006DC839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A734282C56729B006DC839 /* Dustloop-Combo-Buddy */;
+			targetProxy = 89A7343E2C56729D006DC839 /* PBXContainerItemProxy */;
+		};
+		89A734492C56729D006DC839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A734282C56729B006DC839 /* Dustloop-Combo-Buddy */;
+			targetProxy = 89A734482C56729D006DC839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89A7344F2C56729D006DC839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A734502C56729D006DC839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		89A734522C56729D006DC839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dustloop-Combo-Buddy/Dustloop_Combo_Buddy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dustloop-Combo-Buddy/Preview Content\"";
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dustloop-Combo-Buddy/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A734532C56729D006DC839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dustloop-Combo-Buddy/Dustloop_Combo_Buddy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dustloop-Combo-Buddy/Preview Content\"";
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dustloop-Combo-Buddy/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89A734552C56729D006DC839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dustloop-Combo-Buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dustloop-Combo-Buddy";
+			};
+			name = Debug;
+		};
+		89A734562C56729D006DC839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dustloop-Combo-Buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dustloop-Combo-Buddy";
+			};
+			name = Release;
+		};
+		89A734582C56729D006DC839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dustloop-Combo-Buddy";
+			};
+			name = Debug;
+		};
+		89A734592C56729D006DC839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNFZ3Q6QAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Protome.Dustloop-Combo-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dustloop-Combo-Buddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A734242C56729B006DC839 /* Build configuration list for PBXProject "Dustloop-Combo-Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A7344F2C56729D006DC839 /* Debug */,
+				89A734502C56729D006DC839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A734512C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A734522C56729D006DC839 /* Debug */,
+				89A734532C56729D006DC839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A734542C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A734552C56729D006DC839 /* Debug */,
+				89A734562C56729D006DC839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A734572C56729D006DC839 /* Build configuration list for PBXNativeTarget "Dustloop-Combo-BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A734582C56729D006DC839 /* Debug */,
+				89A734592C56729D006DC839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A734212C56729B006DC839 /* Project object */;
+}
